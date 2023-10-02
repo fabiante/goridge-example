@@ -1,0 +1,11 @@
+{
+    "name": "fabiante/goridge-example",
+    "autoload": {
+        "psr-4": {
+            "Fabiante\\GoridgeExample\\": "src/"
+        }
+    },
+    "require": {
+        "spiral/goridge": "^4.0"
+    }
+}

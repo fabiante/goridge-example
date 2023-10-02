@@ -1,0 +1,156 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4a741293dd491bdcf3380f7cd4dda40b",
+    "packages": [
+        {
+            "name": "spiral/goridge",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roadrunner-php/goridge.git",
+                "reference": "56302fc0b677e7874a64ad5d76177e802f963a2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roadrunner-php/goridge/zipball/56302fc0b677e7874a64ad5d76177e802f963a2a",
+                "reference": "56302fc0b677e7874a64ad5d76177e802f963a2a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-sockets": "*",
+                "php": ">=8.1",
+                "spiral/roadrunner": "^2023"
+            },
+            "require-dev": {
+                "google/protobuf": "^3.22",
+                "infection/infection": "^0.26.1",
+                "jetbrains/phpstorm-attributes": "^1.0",
+                "phpunit/phpunit": "^10.0",
+                "rybakit/msgpack": "^0.7",
+                "vimeo/psalm": "^5.9"
+            },
+            "suggest": {
+                "ext-msgpack": "MessagePack codec support",
+                "ext-protobuf": "Protobuf codec support",
+                "google/protobuf": "(^3.0) Protobuf codec support",
+                "rybakit/msgpack": "(^0.7) MessagePack codec support"
+            },
+            "type": "goridge",
+            "autoload": {
+                "psr-4": {
+                    "Spiral\\Goridge\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Titov (wolfy-j)",
+                    "email": "wolfy-j@spiralscout.com"
+                },
+                {
+                    "name": "Valery Piashchynski",
+                    "homepage": "https://github.com/rustatian"
+                },
+                {
+                    "name": "Aleksei Gagarin (roxblnfk)",
+                    "homepage": "https://github.com/roxblnfk"
+                },
+                {
+                    "name": "Pavel Buchnev (butschster)",
+                    "email": "pavel.buchnev@spiralscout.com"
+                },
+                {
+                    "name": "Maksim Smakouz (msmakouz)",
+                    "email": "maksim.smakouz@spiralscout.com"
+                },
+                {
+                    "name": "RoadRunner Community",
+                    "homepage": "https://github.com/roadrunner-server/roadrunner/graphs/contributors"
+                }
+            ],
+            "description": "High-performance PHP-to-Golang RPC bridge",
+            "homepage": "https://spiral.dev/",
+            "support": {
+                "chat": "https://discord.gg/V6EK4he",
+                "docs": "https://roadrunner.dev/docs",
+                "forum": "https://forum.roadrunner.dev/",
+                "issues": "https://github.com/roadrunner-server/roadrunner/issues",
+                "source": "https://github.com/roadrunner-php/goridge/tree/4.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/roadrunner-server",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-04-13T11:38:18+00:00"
+        },
+        {
+            "name": "spiral/roadrunner",
+            "version": "v2023.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roadrunner-server/roadrunner.git",
+                "reference": "ed31539895f2c02cb0186eb8eca9ead8eb2c382d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roadrunner-server/roadrunner/zipball/ed31539895f2c02cb0186eb8eca9ead8eb2c382d",
+                "reference": "ed31539895f2c02cb0186eb8eca9ead8eb2c382d",
+                "shasum": ""
+            },
+            "type": "metapackage",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Titov / Wolfy-J",
+                    "email": "wolfy.jd@gmail.com"
+                },
+                {
+                    "name": "Valery Piashchynski",
+                    "homepage": "https://github.com/rustatian"
+                },
+                {
+                    "name": "RoadRunner Community",
+                    "homepage": "https://github.com/roadrunner-server/roadrunner/graphs/contributors"
+                }
+            ],
+            "description": "RoadRunner: High-performance PHP application server and process manager written in Go and powered with plugins",
+            "homepage": "https://roadrunner.dev/",
+            "support": {
+                "chat": "https://discord.gg/V6EK4he",
+                "docs": "https://roadrunner.dev/docs",
+                "forum": "https://forum.roadrunner.dev/",
+                "issues": "https://github.com/roadrunner-server/roadrunner/issues",
+                "source": "https://github.com/roadrunner-server/roadrunner/tree/v2023.2.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/roadrunner-server",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-08-10T16:28:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
